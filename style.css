@@ -1,6 +1,7 @@
 
 body {
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 .page {
   width: 1000px;
@@ -8,7 +9,7 @@ body {
   margin: 65px auto;
 }
 
-header {
+nav {
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -16,7 +17,21 @@ margin-bottom: 55px;
 }
 
 ul {
+  font-family: 'Mulish', sans-serif;
   list-style: none;
   display: flex;
   gap: 48px;
+}
+
+ul li a {
+  color: #1F1534;
+  text-decoration: none;
+}
+
+ul li a:hover{
+  font-weight: bold;
+}
+
+h1 {
+  font-family: 'Mulish', sans-serif;
 }
