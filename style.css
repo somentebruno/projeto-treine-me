@@ -2,6 +2,8 @@
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+  min-height: 100%vph;
 }
 .page {
   width: 1000px;
@@ -30,10 +32,12 @@ a {
 ul li a {
   color: #1F1534;
   text-decoration: none;
+  opacity: 0.5;
 }
 
 ul li a:hover {
   font-weight: bold;
+  opacity: 1;
 }
 
 h1, ul {
@@ -107,5 +111,12 @@ footer{
 footer a {
   font-weight: bold;
 
+}
+
+.balls-decoration {
+  width: 98.394px;
+  height: 88.001px;
+  flex-shrink: 0;
+  
 }
 
